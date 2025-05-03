@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Headline Scraper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#000] min-h-screen p-6">
+
+    <div class="max-w-2xl mx-auto bg-[#000] rounded-xl shadow-lg p-6">
+        <h1 class="text-2xl font-bold mb-4 text-center text-orange-600"> Hacker News Headlines</h1>
+        <ul class="space-y-3">
+            {% for item in headlines %}
+            <li class="border-b pb-2">
+                <span class="font-semibold text-gray-600">{{ item.rank }}.</span>
+                <a href="{{ item.link }}" target="_blank" class="text-white hover:underline">{{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="text-start mt-6">
+            <a href="/" class="text-sm text-gray-500 hover:underline">Refresh</a>
+        </div>
+    </div>
+    
+</body>
+</html>

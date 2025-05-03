@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Notes App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+    
+    <div class="container mx-auto my-10 p-5 bg-white rounded-lg shadow-lg max-w-lg">
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">📝 Mini Notes</h1>
+
+        
+        <form method="POST" class="mb-6 flex">
+            <input type="text" name="note" placeholder="Write a note..." class="w-full p-3 rounded-l-md border-2 border-gray-300 focus:outline-none focus:border-blue-500" required>
+            <button type="submit" class="p-3 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 transition">Add Note</button>
+        </form>
+
+       
+        <ul class="space-y-4">
+            {% for note in notes %}
+                <li class="flex justify-between items-center p-3 bg-gray-200 rounded-md shadow-md">
+                    <span>{{ note.strip() }}</span>
+                    <a href="/delete/{{ loop.index0 }}" class="text-red-500 hover:text-red-700 transition">Delete</a>
+                </li>
+            {% else %}
+                <li class="p-3 text-center text-gray-500">No notes yet!</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
