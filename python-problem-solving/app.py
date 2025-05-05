@@ -1,31 +1,31 @@
-# # Problem 1: 
+# Problem 1: 
 
-# # Write a Python program that prints "Hello, World!" to the console.
+# Write a Python program that prints "Hello, World!" to the console.
 # print("Hello, World!")
 
-# # Problem 2: Add Two Numbers   (Topic: Variables & Arithmetic Operators)
+# Problem 2: Add Two Numbers   (Topic: Variables & Arithmetic Operators)
 
-# # Write a Python program to add two numbers and print the result.
+# Write a Python program to add two numbers and print the result.
 # a = 5
 # b = 10
 # sum = a + b
 # print(sum)
 
-# # Problem 3: Swap Two Numbers  (Topic: Variables & Swapping)
+# Problem 3: Swap Two Numbers  (Topic: Variables & Swapping)
 
-# # Write a Python program to swap two numbers without using a third variable.
+# Write a Python program to swap two numbers without using a third variable.
 # a = 10
 # b = 20
 
-# # Swapping - We use Python’s multiple assignment feature to swap values: a, b = b, a.
+# Swapping - We use Python’s multiple assignment feature to swap values: a, b = b, a.
 # a, b = b, a  
 
 # print("a =", a)
 # print("b =", b)
 
-# # Problem 4: Check Even or Odd  (Topic: Conditional Statements)
+# Problem 4: Check Even or Odd  (Topic: Conditional Statements)
 
-# # Write a Python program that takes a number as input and prints whether it is even or odd.
+# Write a Python program that takes a number as input and prints whether it is even or odd.
 # num = int(input('Enter a number:'))
 
 # % (modulo) finds the remainder when num is divided by 2.If remainder == 0, the number is even, otherwise odd.
@@ -35,9 +35,9 @@
 #     print(num, 'is odd')
 
 
-# # Problem 5: Find the Largest of Two Numbers  (Topic: Conditional Statements)
+# Problem 5: Find the Largest of Two Numbers  (Topic: Conditional Statements)
 
-# # Write a Python program to find the largest of two numbers.
+# Write a Python program to find the largest of two numbers.
 # a = 15
 # b = 10
 
@@ -47,9 +47,9 @@
 #     print(b, 'is the largest number')
 
 
-# # Problem 6: Find the Largest of Three Numbers  (Topic: Conditional Statements)
+# Problem 6: Find the Largest of Three Numbers  (Topic: Conditional Statements)
 
-# # Write a Python program to find the largest of three numbers.
+# Write a Python program to find the largest of three numbers.
 # a = 10
 # b = 20
 # c = 30
@@ -62,9 +62,9 @@
 #     print(c, 'is the largest number')
 
 
-# # Problem 7: Check if a Number is Positive, Negative, or Zero (Topic: Conditional Statements)
+# Problem 7: Check if a Number is Positive, Negative, or Zero (Topic: Conditional Statements)
 
-# # Write a Python program that checks whether a given number is positive, negative, or zero.
+# Write a Python program that checks whether a given number is positive, negative, or zero.
 # num = int(input('Enter a number: '))
 
 # if num > 0:
@@ -75,9 +75,9 @@
 #     print('The number is zero')
 
 
-# # Problem 8: Sum of First N Natural Numbers   (Topic: Loops)
+# Problem 8: Sum of First N Natural Numbers   (Topic: Loops)
 
-# # Write a Python program to find the sum of the first N natural numbers.
+# Write a Python program to find the sum of the first N natural numbers.
 # n = int(input('Enter a number: '))
 
 # sum = 0   # Start with sum = 0
@@ -86,9 +86,9 @@
 # print('Sum:', sum)
 
 
-# # Problem 9: Factorial of a Number (Topic: Loops)
+# Problem 9: Factorial of a Number (Topic: Loops)
 
-# # Write a Python program to find the factorial of a given number.
+# Write a Python program to find the factorial of a given number.
 # n = int(input('Enter a number: '))
 
 # factorial = 1
@@ -96,9 +96,9 @@
 #     factorial *= i
 
 # print('Factorial:', factorial)
-# # Explanation::
-# # The factorial of n is n * (n-1) * (n-2) ... * 1.
-# # We loop from 1 to n, multiplying each number.
+# Explanation::
+# The factorial of n is n * (n-1) * (n-2) ... * 1.
+# We loop from 1 to n, multiplying each number.
 
 
 # Problem 10: Reverse a Number  (Topic: Loops & Math)
@@ -227,7 +227,7 @@
 
 
 
-# Given an array containing n-1 unique numbers from 1 to n, find the missing number.
+# Problem 21: Given an array containing n-1 unique numbers from 1 to n, find the missing number.
 # def find_missing_number(arr, n):
 #     expected_sum = n * (n + 1) // 2
 #     actual_sum = sum(arr)
@@ -240,3 +240,4 @@
 # i/o:
 # Enter numbers separated by spaces: 1 2 3 5
 # Missing Number: 4
+
