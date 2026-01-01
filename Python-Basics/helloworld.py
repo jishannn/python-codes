@@ -7,7 +7,11 @@
 # print(message);
 
 # motorcycles = ['honda', 'yamaha', 'suzuki']
+<<<<<<< HEAD
 # print(motorcycles);
+=======
+# print(motorcocles);
+>>>>>>> 0ab4417 (hash table folder added.)
 
 # motorcycles[0] = 'ducati'
 # print(motorcycles);
@@ -1485,3 +1489,7 @@
 
 
 
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 0ab4417 (hash table folder added.)
