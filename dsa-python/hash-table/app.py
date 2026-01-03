@@ -92,4 +92,3 @@ def first_unique_character(text):
 print(first_unique_character("swiss"))  # output: w
 
 print(first_unique_character("repeater"))  # output: p
-        
