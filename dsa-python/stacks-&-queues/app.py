@@ -20,7 +20,6 @@ print(top_item)
 
 
 # Stack example: Reverse a string
-
 stack = []
 text = "hello"
 reversed_text = ""
